@@ -7,7 +7,8 @@ textarea {
     width: 50%;
     height: 10vh;
     color: white;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
     border-color: white;
 }
 
@@ -18,6 +19,8 @@ textarea {
     width: 50%;
     height: 10vh;
     border-color: white;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .bg {
@@ -25,7 +28,7 @@ textarea {
   background-image: url("mauricio-santos-N1gFsYf9AI0-unsplash.jpg");
 
   /* Full height */
-  height: 100%; 
+  height: 900px; 
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -39,7 +42,7 @@ textarea {
 
 #btn-translate {
     border-radius: 1rem;
-    border: 2px solid black;
+    border: 2px solid white;
     color: white;
     background-color: transparent;
     padding: 0.5rem 0.5rem;
@@ -48,13 +51,7 @@ textarea {
 }
 
 #btn-translate:hover {
-    border-radius: 1rem;
-    border: 2px solid black;
-    color: white;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 0.5rem;
-    margin-top: 1rem;
-    font-weight: bold;
 }
 
 .lang-selector  {
@@ -65,20 +62,12 @@ textarea {
     text-align: center;
     font-family: 'Oldenburg', cursive;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 1rem;
 }
 
 .lang-selector:hover  {
-    margin: 1rem 1rem;
-    padding: 0.5rem 0.5rem;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Oldenburg', cursive;
     background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid black;
-    border-radius: 1rem;
 }
 
 option {
