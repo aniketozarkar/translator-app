@@ -1,15 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+
 textarea {
     display: block;
     padding: 1rem 1rem;
-    margin: 1rem 1rem;
-    width: 80%;
+    margin: auto auto;
+    width: 50%;
     height: 10vh;
+    color: white;
+    background-color: transparent;
+    border-color: white;
 }
 
 #txt-output {
     border: 1px solid darkslategray;
     padding: 1rem 1rem;
-    margin: 1rem 1rem;
-    width: 80%;
+    margin: auto auto;
+    width: 50%;
     height: 10vh;
+    border-color: white;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("mauricio-santos-N1gFsYf9AI0-unsplash.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color: white;
+  text-align: center;
+  font-family: 'Oldenburg', cursive;
+}
+
+#btn-translate {
+    border-radius: 1rem;
+    border: 2px solid black;
+    color: white;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#btn-translate:hover {
+    border-radius: 1rem;
+    border: 2px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.lang-selector  {
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oldenburg', cursive;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.lang-selector:hover  {
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Oldenburg', cursive;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+option {
+    background-color: #9d7957;
+}
+
+option:checked {
+    background-color: #70543a;
 }
